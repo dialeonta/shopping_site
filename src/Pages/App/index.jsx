@@ -5,6 +5,7 @@ import MyOrder from '../MyOrder'
 import MyOrders from '../MyOrders'
 import NotFound from '../NotFound'
 import SingIn from '../SingIn'
+import NavBar from '../../Components/NavBar'
 
 import './App.css'
 
@@ -25,6 +26,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <NavBar />
         <AppRoutes />
       </BrowserRouter>
     </>
